@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./vendor/uikit.min.css">
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap" rel="stylesheet">
+  <link rel="icon" href="./images/favicon.ico">
+  <script src="./vendor/uikit.min.js" defer></script>
+  <script src="./vendor/uikit-icons.min.js" defer></script>
+  <script src="./script.js" defer></script>
+  <title>TK LABO</title>
+  <meta name="description" content="TK LABOはエンジニアTKによるポートフォリオサイトです">
+</head>
+
+<body>
+  <header class="header">
+    <div class="uk-container">
+      <nav class="uk-navbar-container uk-navbar-transparent" style="min-height: 64px;" uk-navbar>
+        <div class="uk-navbar-left uk-visible@m">
+          <a class="uk-navbar-item uk-text-large" href="#">
+            TK LABO
+          </a>
+        </div>
+        <div class="uk-navbar-left uk-hidden@m">
+          <a class="uk-navbar-item uk-text-large" href="#">
+            TK LABO
+          </a>
+        </div>
+        <div class="uk-navbar-right uk-visible@m">
+          <ul class="uk-navbar-nav">
+            <li><a class="uk-text-bold uk-text-emphasis" href="#profile" uk-scroll>プロフィール</a></li>
+            <li><a class="uk-text-bold uk-text-emphasis" href="#portfolio" uk-scroll>ポートフォリオ</a></li>
+            <li><a class="uk-text-bold uk-text-emphasis" href="#skill" uk-scroll>スキル</a></li>
+            <li><a class="uk-text-bold uk-text-emphasis" href="#contact" uk-scroll>お問合わせ</a></li>
+          </ul>
+        </div>
+        <div class="uk-navbar-right uk-hidden@m">
+          <a class="uk-navbar-toggle uk-navbar-toggle-animate" uk-navbar-toggle-icon href="#"></a>
+          <div class="uk-navbar-dropdown">
+            <ul class="uk-nav uk-navbar-dropdown-nav">
+              <li><a class="uk-text-bold uk-text-emphasis" href="#profile" uk-scroll>プロフィール</a></li>
+              <li><a class="uk-text-bold uk-text-emphasis" href="#portfolio" uk-scroll>ポートフォリオ</a></li>
+              <li><a class="uk-text-bold uk-text-emphasis" href="#skill" uk-scroll>スキル</a></li>
+              <li><a class="uk-text-bold uk-text-emphasis" href="#contact" uk-scroll>お問合わせ</a></li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <section class="main">
+    <div class="uk-container">
+      <div class="main-text">
+        <h1>HELLO!</h1>
+        <h1>WELCOME!</h1>
+        <p>THIS IS TK'S PORTFOLIO SITE, CREATED AS A SOFTWARE ENGINEER.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="profile"
+    class="profile uk-padding-large uk-padding-remove-horizontal uk-margin-large-top uk-margin-large-bottom">
+    <div class="uk-container">
+      <div class="uk-grid-match" uk-grid>
+        <div class="uk-width-1-1">
+          <div class="uk-flex uk-flex-column uk-flex-middle uk-margin-bottom">
+            <h2 class="uk-text-center uk-margin-remove">PROFILE</h2>
+            <p class="subheader">プロフィール</p>
+            <div class="background-green uk-border-rounded uk-width-small" style="height: 4px;"></div>
+          </div>
+        </div>
+        <div class="uk-width-1-1 uk-width-1-2@m">
+          <div class="uk-flex uk-flex-right uk-margin-bottom uk-margin-remove-bottom@m"
+            uk-scrollspy="cls: uk-animation-slide-left; repeat: true">
+            <img src="images/programmer.png" class="uk-width-3-4@m" />
+          </div>
+        </div>
+        <div class="uk-width-1-1 uk-width-1-2@m">
+          <div class="uk-flex uk-flex-middle uk-flex-left" uk-scrollspy="cls: uk-animation-slide-right; repeat: true">
+            <div class="uk-width-large">
+              <p class="uk-text-left">
+                岩手県出身のエンジニア。大学卒業後は営業職に従事。
+              </p>
+              <p class="uk-text-left">
+                その後、プログラミングスクールでWEBサイト制作とRuby on Railsを用いたWEBアプリケーション開発について学びました。
+              </p>
+              <p class="uk-text-left">
+                現在はWEB制作会社でエンジニアとして働いています。
+              </p>
+              <p class="uk-text-left">
+                フレームワークやワードプレスを用いたサイト制作から、保守・運用、サーバーやドメイン周辺の管理、Railsを用いたアプリ開発と、フロントエンドからバックエンドまで幅広く業務を経験してきました。
+              </p>
+              <br>
+              <p><span uk-icon="icon: github"></span> <a href="https://github.com/taikingo" target="_blank"
+                  rel="noopener noreferrer">https://github.com/taikingo</a></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="portfolio" class="portfolio uk-padding-large uk-padding-remove-horizontal"
+    style="background-color: #FAFAFA;">
+    <div class="uk-container uk-padding-large uk-padding-remove-horizontal">
+      <div class="uk-grid-match" uk-grid>
+        <div class="uk-width-1-1">
+          <div class="uk-flex uk-flex-column uk-flex-middle uk-margin-bottom">
+            <h2 class="uk-text-center uk-margin-remove">PORTFOLIO</h2>
+            <p class="subheader">ポートフォリオ</p>
+          </div>
+        </div>
+        <div class="uk-child-width-1-3@m" uk-grid
+          uk-scrollspy="cls: uk-animation-fade; target: div; delay: 200; repeat: true">
+          <div class="uk-width-1-1 uk-width-1-3@m">
+            <div class="uk-flex uk-flex-center uk-margin-bottom uk-margin-remove-bottom@m uk-transition-toggle"
+              tabindex="0">
+              <a class="uk-text-center" href="#modal-01" uk-toggle><img
+                  class="uk-width-1-1@m uk-width-3-4 uk-transition-scale-up uk-transition-opaque"
+                  src="./images/blogapp01.png" alt=""></a>
+            </div>
+            <p class="uk-text-center subheader">BLOG APP</p>
+          </div>
+          <div class="uk-width-1-1 uk-width-1-3@m">
+            <div class="uk-flex uk-flex-center uk-margin-bottom uk-margin-remove-bottom@m uk-transition-toggle"
+              tabindex="0">
+              <a class="uk-text-center" href="#modal-02" uk-toggle><img
+                  class="uk-width-1-1@m uk-width-3-4 uk-transition-scale-up uk-transition-opaque"
+                  src="./images/miniblog01.png" alt=""></a>
+            </div>
+            <p class="uk-text-center subheader">MINI BLOG</p>
+          </div>
+          <div class="uk-width-1-1 uk-width-1-3@m">
+            <div class="uk-flex uk-flex-center uk-margin-bottom uk-margin-remove-bottom@m uk-transition-toggle"
+              tabindex="0">
+              <a class="uk-text-center" href="#modal-03" uk-toggle><img
+                  class="uk-width-1-1@m uk-width-3-4 uk-transition-scale-up uk-transition-opaque"
+                  src="./images/tklabo01.png" alt=""></a>
+            </div>
+            <p class="uk-text-center subheader">TK LABO</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="modal-01" class="uk-flex-top" uk-modal>
+      <div class="uk-modal-dialog uk-modal-body uk-margin-auto-vertical">
+        <button class="uk-modal-close-default" type="button" uk-close></button>
+        <div class="uk-grid-match" uk-grid>
+          <div class="uk-width-1-2@m">
+            <p class="subheader uk-text-large uk-text-center">BLOG APP</p>
+            <p>Railsで作った初めてのアプリです。最終的にはインスタグラムのようなアプリを目指していましたが、今のところはシンプルな記事投稿アプリとなっています。RailsにおけるMVCの構造やCRUDの使い方、deviceを用いた認証機能、DBのリレーションやバリデーションなど、Rails開発の基本的なことを学ぶことができました。
+            </p>
+            <p>開発環境など : Ruby, Rails, scss, bootstrap, node.js, haml, SQLite</p>
+            <p><span uk-icon="icon: github"></span> <a href="https://github.com/taikingo" target="_blank"
+                  rel="noopener noreferrer">https://github.com/taikingo/blogapp-taikingo</a></p>
+          </div>
+          <div class="uk-width-1-2@m">
+            <div class="uk-position-relative" uk-slideshow="animation: fade">
+
+              <div class="uk-slideshow-items">
+                <div>
+                  <img src="images/blogapp01.png" alt="" uk-cover>
+                </div>
+                <div>
+                  <img src="images/blogapp02.png" alt="" uk-cover>
+                </div>
+                <div>
+                  <img src="images/blogapp03.png" alt="" uk-cover>
+                </div>
+                <div>
+                  <img src="images/blogapp04.png" alt="" uk-cover>
+                </div>
+              </div>
+
+              <div class="uk-position-bottom-center uk-position-small">
+                <ul class="uk-thumbnav">
+                  <li uk-slideshow-item="0"><a href="#"><img src="images/blogapp01.png" width="100" height="67" alt=""></a>
+                  </li>
+                  <li uk-slideshow-item="1"><a href="#"><img src="images/blogapp02.png" width="100" height="67" alt=""></a>
+                  </li>
+                  <li uk-slideshow-item="2"><a href="#"><img src="images/blogapp03.png" width="100" height="67" alt=""></a>
+                  </li>
+                  <li uk-slideshow-item="3"><a href="#"><img src="images/blogapp04.png" width="100" height="67" alt=""></a>
+                  </li>
+                </ul>
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="modal-02" class="uk-flex-top" uk-modal>
+      <div class="uk-modal-dialog uk-modal-body uk-margin-auto-vertical">
+        <button class="uk-modal-close-default" type="button" uk-close></button>
+        <div class="uk-grid-match" uk-grid>
+          <div class="uk-width-1-2@m">
+            <p class="subheader uk-text-large uk-text-center">X風アプリ</p>
+            <p>X(twitter)風アプリを目指して作りました。最初に作ったBlogAppからはさらにユーザーをフォローしたりいいねしたりできる機能を追加し、タイムラインではフォローしたユーザーの投稿のみが見れるよう改善しました。ユーザーフォロー機能の実装においては特に中間テーブルの作成など、よりDBのリレーションについて理解を深めることができました。</p>
+            <p>開発環境など : Ruby, Rails, scss, bootstrap, node.js, haml, SQLite</p>
+            <p><span uk-icon="icon: github"></span> <a href="https://github.com/taikingo" target="_blank"
+                  rel="noopener noreferrer">https://github.com/taikingo/miniblog</a></p>
+          </div>
+          <div class="uk-width-1-2@m">
+            <div class="uk-position-relative" uk-slideshow="animation: fade">
+
+              <div class="uk-slideshow-items">
+                <div>
+                  <img src="images/miniblog01.png" alt="" uk-cover>
+                </div>
+                <div>
+                  <img src="images/miniblog02.png" alt="" uk-cover>
+                </div>
+                <div>
+                  <img src="images/miniblog03.png" alt="" uk-cover>
+                </div>
+                <div>
+                  <img src="images/miniblog04.png" alt="" uk-cover>
+                </div>
+              </div>
+
+              <div class="uk-position-bottom-center uk-position-small">
+                <ul class="uk-thumbnav">
+                  <li uk-slideshow-item="0"><a href="#"><img src="images/miniblog01.png" width="100" height="67" alt=""></a>
+                  </li>
+                  <li uk-slideshow-item="1"><a href="#"><img src="images/miniblog02.png" width="100" height="67" alt=""></a>
+                  </li>
+                  <li uk-slideshow-item="2"><a href="#"><img src="images/miniblog03.png" width="100" height="67" alt=""></a>
+                  </li>
+                  <li uk-slideshow-item="3"><a href="#"><img src="images/miniblog04.png" width="100" height="67" alt=""></a>
+                  </li>
+                </ul>
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="modal-03" class="uk-flex-top" uk-modal>
+      <div class="uk-modal-dialog uk-modal-body uk-margin-auto-vertical">
+        <button class="uk-modal-close-default" type="button" uk-close></button>
+        <div class="uk-grid-match" uk-grid>
+          <div class="uk-width-1-2@m">
+            <p class="subheader uk-text-large uk-text-center">TK LABO</p>
+            <p>今見ていただいているWEBページです。UIkitというフレームワークをメインに、HTMLとCSSでLP型のポートフォリオサイトを作成しました。お気に入りポイントはトップビジュアルの部分で、これはCSSで実装しました。動きのある部分やモーダルなどはUIkitを用いて実装しています。CSSやJSを使わなくてもUIkitでほとんど実装でき、フレームワークの優秀さに驚きました。</p>
+            <p>開発環境など : HTML, CSS, UIkit</p>
+          </div>
+          <div class="uk-width-1-2@m">
+            <div class="uk-position-relative" uk-slideshow="animation: fade">
+
+              <div class="uk-slideshow-items">
+                <div>
+                  <img src="images/tklabo01.png" alt="" uk-cover>
+                </div>
+                <div>
+                  <img src="images/tklabo02.png" alt="" uk-cover>
+                </div>
+                <div>
+                  <img src="images/tklabo03.png" alt="" uk-cover>
+                </div>
+                <div>
+                  <img src="images/tklabo04.png" alt="" uk-cover>
+                </div>
+              </div>
+
+              <div class="uk-position-bottom-center uk-position-small">
+                <ul class="uk-thumbnav">
+                  <li uk-slideshow-item="0"><a href="#"><img src="images/tklabo01.png" width="100" height="67" alt=""></a>
+                  </li>
+                  <li uk-slideshow-item="1"><a href="#"><img src="images/tklabo02.png" width="100" height="67" alt=""></a>
+                  </li>
+                  <li uk-slideshow-item="2"><a href="#"><img src="images/tklabo03.png" width="100" height="67" alt=""></a>
+                  </li>
+                  <li uk-slideshow-item="3"><a href="#"><img src="images/tklabo04.png" width="100" height="67" alt=""></a>
+                  </li>
+                </ul>
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="skill"
+    class="profile uk-padding-large uk-padding-remove-horizontal uk-margin-large-top uk-margin-large-bottom">
+    <div class="uk-container">
+      <div class="uk-grid-match" uk-grid>
+        <div class="uk-width-1-1">
+          <div class="uk-flex uk-flex-column uk-flex-middle uk-margin-bottom">
+            <h2 class="uk-text-center uk-margin-remove">SKILL</h2>
+            <p class="subheader">スキル</p>
+          </div>
+        </div>
+        <div class="uk-width-1-1 uk-width-1-2@m">
+          <div class="uk-flex uk-flex-right uk-margin-bottom uk-margin-remove-bottom@m"
+            uk-scrollspy="cls: uk-animation-slide-left; repeat: true">
+            <img src="images/skill01.png" class="" />
+          </div>
+        </div>
+        <div class="uk-width-1-1 uk-width-1-2@m">
+          <div class="uk-flex uk-flex-middle uk-flex-left" uk-scrollspy="cls: uk-animation-slide-right; repeat: true">
+            <img src="./images/skill02.png" class="" alt="">
+          </div>
+        </div>
+        <div class="uk-width-1-1">
+          <div class="uk-flex uk-flex-column uk-flex-middle uk-margin-bottom">
+            <p>
+              実務で経験した技術のみ記載しています。フロントエンドをメインにしつつ、バックエンドまで幅広く対応できる点が強みですが、これまで力を入れきたRuby/Railsはもちろん、バックエンドにおいては更なる技術力向上が必要であると認識しています。今後はバックエンド開発に関わりながら、一つ一つの技術に対しての理解と専門性を高めていきたいと考えています。新しい技術も積極的にキャッチアップしていきたいです。
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="portfolio uk-padding-large uk-padding-remove-horizontal"
+    style="background-color: #FAFAFA;">
+    <div class="uk-container uk-padding-large uk-padding-remove-horizontal">
+      <div class="uk-grid-match" uk-grid>
+        <div class="uk-width-1-1 uk-margin-bottom">
+          <div class="uk-flex uk-flex-column uk-flex-middle">
+            <h2 class="uk-text-center uk-margin-remove">
+              CONTACT
+            </h2>
+            <p class="subheader">お問合せ</p>
+          </div>
+        </div>
+        <div class="uk-width-1-1 uk-width-1-1@m">
+          <div class="uk-flex uk-flex-column uk-flex-center uk-flex-middle">
+            <div class="uk-width-large">
+              <form id="getintouchform" data-static-form-name="contact">
+                <div>
+                  <label for="name" class="text-smaller">姓名 <span class="uk-text-danger">*</span></label>
+                  <input name="name" type="text" class="uk-input uk-border-rounded input mt-3" placeholder="山田花子"
+                    required />
+                </div>
+                <div class="uk-margin-top">
+                  <label for="email" class="text-smaller">メールアドレス <span class="uk-text-danger">*</span></label>
+                  <input name="email" type="email" class="uk-input uk-border-rounded input mt-3"
+                    placeholder="xxx@xxx.com" required />
+                </div>
+                <div class="uk-margin-top">
+                  <label for="body" class="text-smaller">本文 <span class="uk-text-danger">*</span></label>
+                  <textarea name="body" type="text" class="uk-textarea uk-border-rounded input mt-3" rows="10"
+                    placeholder="お問い合わせ内容を記入してください" required></textarea>
+                </div>
+                <div class="uk-margin-medium-top">
+                  <button type="submit" class="uk-button uk-button-green uk-width-expand">送信</button>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer uk-padding-large uk-padding-remove-horizontal" style="background-color: #81d8d0;">
+    <div class="uk-container">
+      <div class="uk-grid-large" uk-grid>
+        <div class="uk-width-1-1 uk-width-5-6@m uk-light">
+          <div>
+            <div class="uk-margin-top" uk-grid>
+              <div class="uk-width-1-1 uk-width-auto@m">
+                <div class="uk-text-center uk-text-left@m">
+                  <a href="#profile" class="uk-text-small" uk-scroll>プロフィール</a>
+                </div>
+              </div>
+            </div>
+            <div class="uk-margin-small-top" uk-grid>
+              <div class="uk-width-1-1 uk-width-auto@m">
+                <div class="uk-text-center uk-text-left@m">
+                  <a href="#portfolio" class="uk-text-small" uk-scroll>ポートフォリオ</a>
+                </div>
+              </div>
+            </div>
+            <div class="uk-margin-small-top" uk-grid>
+              <div class="uk-width-1-1 uk-width-auto@m">
+                <div class="uk-text-center uk-text-left@m">
+                  <a href="#skill" class="uk-text-small" uk-scroll>スキル</a>
+                </div>
+              </div>
+            </div>
+            <div class="uk-margin-small-top" uk-grid>
+              <div class="uk-width-1-1 uk-width-auto@m">
+                <div class="uk-text-center uk-text-left@m">
+                  <a href="#contact" class="uk-text-small" uk-scroll>お問合せ</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="uk-flex uk-flex-column uk-flex-bottom uk-margin-large-top">
+            <a href="#"><p class="uk-text-bold uk-margin-remove-bottom uk-margin-xsmall-top">
+              &copy; <span id="copy-year"></span> TK LABO
+            </p></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+</body>
+
+</html>
